@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+:root {
+    --main-bg-color: #2455f4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav {
+    display: flex;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    height: 58px;
+    align-items: center;
+
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 0px 30px;
+
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    font-weight: bolder;
+    color: black;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 131px;
+    padding: 0px 12px;
+
+}
+
+.search {
+    display: flex;
+    padding: 12px;
+}
+
+.search input {
+    width: 531px;
+    height: 43px;
+}
+
+.search-logo {
+    position: absolute;
+    left: 801px;
+    top: 16px;
+}
+
+.search-logo img {
+    width: 33px;
+    cursor: pointer;
+}
+
+.container {
+    height: calc(200vh - 58px - 19vh);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 12px;
+}
+.card{
+    max-width: 84vw;
+    margin: auto;
+}
+.cards{
+    overflow: hidden;
+}
+.card-item{
+    
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 15vh;
+    font-family: 'Raleway', sans-serif;
+}

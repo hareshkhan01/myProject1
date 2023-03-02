@@ -1,0 +1,19 @@
+.flex-all-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#slide-image1 {
+    width: 819px;
+    height: 253px;
+}
+.my-2{
+    margin: 20px 0;
+}
+.my-1{
+    margin: 5px 0;
+}
+.text-center{
+    text-align: center;
+}
